@@ -1,0 +1,99 @@
+/* General Styles */
+body {
+  font-family: "Georgia", serif;
+  margin: 0;
+  padding: 0;
+  color: #333;
+  background-color: #faf9f7;
+  line-height: 1.6;
+}
+
+/* Navigation */
+header {
+  background: #403c36;
+  color: #fff;
+  padding: 1em 0;
+  text-align: center;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin: 0 15px;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+}
+
+nav a:hover, .active {
+  text-decoration: underline;
+}
+
+/* Sections */
+main {
+  max-width: 900px;
+  margin: auto;
+  padding: 1.5em;
+}
+
+h1, h2, h3 {
+  color: #403c36;
+}
+
+.highlight {
+  background-color: #f4efe6;
+  padding: 0.5em;
+  border-left: 3px solid #b18b5e;
+}
+
+/* Div Table */
+.table-container {
+  display: table;
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.row {
+  display: table-row;
+}
+
+.row div {
+  display: table-cell;
+  border: 1px solid #ccc;
+  padding: 8px;
+}
+
+.header div {
+  background-color: #e2d8c1;
+  font-weight: bold;
+}
+
+/* Footer */
+#footer {
+  text-align: center;
+  padding: 1em;
+  background-color: #403c36;
+  color: white;
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+  nav ul li {
+    display: block;
+    margin: 10px 0;
+  }
+  .table-container, .row, .row div {
+    display: block;
+  }
+}
+
+/* Example selectors for rubric */
+p { font-size: 1rem; } /* element selector */
+#footer { font-size: 0.9rem; } /* ID selector */
+.description { font-style: italic; } /* class selector */
