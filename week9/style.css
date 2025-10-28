@@ -42,7 +42,7 @@ nav a:hover {
 .floating-icon {
   display: block;
   margin: 30px auto 0 auto; /* top margin 30px, horizontal auto centers it */
-  width: 50px;               /* adjust size as needed */
+  width: 150px;               /* adjust size as needed */
   height: auto;
 }
 
