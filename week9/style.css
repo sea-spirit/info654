@@ -40,10 +40,9 @@ nav a:hover {
 
 /* Floating Substack icon (Home page only) */
 .floating-icon {
-  position: absolute;
-  top: 20px;
-  right: 20px;
-  width: 50px;
+  display: block;
+  margin: 30px auto 0 auto; /* top margin 30px, horizontal auto centers it */
+  width: 50px;               /* adjust size as needed */
   height: auto;
 }
 
