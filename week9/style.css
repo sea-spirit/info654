@@ -1,153 +1,14 @@
-/* General Styles */
-body {
-  font-family: "Georgia", serif;
-  margin: 0;
-  padding: 0;
-  color: #333;
-  background-color: #faf9f7;
-  line-height: 1.6;
-}
-
-/* Navigation */
-header {
-  background: #403c36;
-  color: #fff;
-  padding: 1em 0;
-  text-align: center;
-}
-
-nav ul {
-  list-style: none;
-  padding: 0;
-}
-
-nav ul li {
-  display: inline;
-  margin: 0 15px;
-}
-
-nav a {
-  color: #fff;
-  text-decoration: none;
-}
-
-nav a:hover, .active {
-  text-decoration: underline;
-}
-
-/* Sections */
-main {
-  max-width: 900px;
-  margin: auto;
-  padding: 1.5em;
-}
-
-h1, h2, h3 {
-  color: #403c36;
-}
-
-.highlight {
-  background-color: #f4efe6;
-  padding: 0.5em;
-  border-left: 3px solid #b18b5e;
-}
-
-/* Div Table */
-.table-container {
-  display: table;
-  width: 100%;
-  border-collapse: collapse;
-}
-
-.row {
-  display: table-row;
-}
-
-.row div {
-  display: table-cell;
-  border: 1px solid #ccc;
-  padding: 8px;
-}
-
-.header div {
-  background-color: #e2d8c1;
-  font-weight: bold;
-}
-
-/* Footer */
-#footer {
-  text-align: center;
-  padding: 1em;
-  background-color: #403c36;
-  color: white;
-}
-
-/* Responsive */
-@media (max-width: 600px) {
-  nav ul li {
-    display: block;
-    margin: 10px 0;
-  }
-  .table-container, .row, .row div {
-    display: block;
-  }
-}
-
-/* Example selectors for rubric */
-p { font-size: 1rem; } /* element selector */
-#footer { font-size: 0.9rem; } /* ID selector */
-.description { font-style: italic; } /* class selector */
-
-.external-link-img {
-  display: block;
-  margin: 2rem auto;            /* centers it with spacing */
-  width: 120px;                 /* adjust size as you like (80–150px works well) */
-  height: auto;
-  border-radius: 12px;          /* soft, modern corners */
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15); /* gentle depth */
-  opacity: 0.95;
-  transition: transform 0.3s ease, box-shadow 0.3s ease, opacity 0.3s ease;
-}
-
-.external-link-img:hover {
-  transform: scale(1.05);
-  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.25);
-  opacity: 1;
-}
-
-.header-container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  gap: 0.5rem;
-  padding: 0.5rem 0;
-}
-
-.header-signature {
-  width: 300px;              /* adjust to fit nicely in the bar */
-  height: auto;
-  opacity: 0.95;
-  filter: drop-shadow(0 2px 4px rgba(0,0,0,0.2));
-  transition: transform 0.3s ease, opacity 0.3s ease;
-}
-
-.header-signature:hover {
-  transform: scale(1.05);
-  opacity: 1;
-}
-
 /* Header styling */
 .header {
-  text-align: center;          /* center the content */
-  margin-bottom: 30px;         /* space below header */
+  text-align: center;
+  margin-bottom: 30px;
 }
 
 .banner-image {
-  width: 400px;                /* adjust size if needed */
-  height: auto;                /* keep aspect ratio */
+  width: 400px;
+  height: auto;
   display: block;
-  margin: 0 auto;              /* center image */
+  margin: 0 auto;
 }
 
 nav {
@@ -155,12 +16,27 @@ nav {
 }
 
 nav a {
-  margin: 0 15px;              /* space between links */
+  margin: 0 15px;
   text-decoration: none;
   color: #333;
   font-weight: bold;
 }
 
 nav a:hover {
-  color: #555;                 /* hover effect */
+  color: #555;
+}
+
+/* Main content */
+main {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.project-list article {
+  margin-bottom: 20px;
+}
+
+h1, h2 {
+  text-align: center;
 }
