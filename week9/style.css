@@ -1,47 +1,50 @@
-/* Header styling */
+/* Body and font */
+body {
+  font-family: Georgia, serif;
+  line-height: 1.6;
+  margin: 0;
+  background-color: #fefaf3;
+  color: #333;
+}
+
+/* Header */
 .header {
+  background-color: #8b5e3c; /* brown header */
+  color: white;
   text-align: center;
-  margin-bottom: 30px;
+  padding: 20px 0;
+  position: relative;
 }
 
 .banner-image {
-  width: 400px; /* adjust to desired size */
+  width: 300px; /* adjust as desired */
   height: auto;
   display: block;
   margin: 0 auto;
 }
 
 nav {
-  margin-top: 10px;
+  margin-top: 15px;
 }
 
 nav a {
   margin: 0 15px;
   text-decoration: none;
-  color: #333;
+  color: white;
   font-weight: bold;
 }
 
 nav a:hover {
-  color: #555;
+  text-decoration: underline;
 }
 
-/* Floating icon for Substack (only on Home page) */
+/* Floating Substack icon (Home page only) */
 .floating-icon {
   position: absolute;
   top: 20px;
   right: 20px;
-  width: 50px; /* adjust size */
+  width: 50px;
   height: auto;
 }
 
-/* Main content styling (kept from original design) */
-main {
-  max-width: 800px;
-  margin: 0 auto;
-  padding: 0 15px;
-}
-
-h1, h2 {
-  text-align: center;
-}
+/* Main content */
