@@ -38,12 +38,22 @@ nav a:hover {
   text-decoration: underline;
 }
 
-/* Floating Substack icon (Home page only) */
+/* Floating Substack icon at bottom center */
 .floating-icon {
   display: block;
-  margin: 30px auto 0 auto; /* top margin 30px, horizontal auto centers it */
-  width: 150px;               /* adjust size as needed */
+  margin: 30px auto 0 auto;  /* top margin, centered horizontally */
+  width: 50px;                /* adjust size */
   height: auto;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* subtle drop shadow */
+  border-radius: 8px;         /* optional, soft corners */
 }
 
-/* Main content */
+/* Main content spacing */
+main {
+  max-width: 800px;
+  margin: 30px auto;          /* vertical spacing + centered horizontally */
+  padding: 0 20px;            /* horizontal padding so text doesn't touch edges */
+  background-color: #fffaf0;  /* keep the light background from your design */
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
