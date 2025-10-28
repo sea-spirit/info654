@@ -2,7 +2,7 @@
 body {
   font-family: Georgia, serif;
   line-height: 1.6;
-  margin: 1;
+  margin: 0;
   background-color: #fefaf3;
   color: #333;
 }
@@ -17,7 +17,7 @@ body {
 }
 
 .banner-image {
-  width: 300px; /* adjust as desired */
+  width: 300px;
   height: auto;
   display: block;
   margin: 0 auto;
@@ -38,22 +38,51 @@ nav a:hover {
   text-decoration: underline;
 }
 
-/* Floating Substack icon at bottom center */
-.floating-icon {
-  display: block;
-  margin: 30px auto 0 auto;  /* top margin, centered horizontally */
-  width: 150px;                /* adjust size */
-  height: auto;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* subtle drop shadow */
-  border-radius: 8px;         /* optional, soft corners */
-}
-
-/* Main content spacing */
+/* Main content */
 main {
   max-width: 800px;
-  margin: 30px auto;          /* vertical spacing + centered horizontally */
-  padding: 0 20px;            /* horizontal padding so text doesn't touch edges */
-  background-color: #fffaf0;  /* keep the light background from your design */
+  margin: 30px auto;
+  padding: 30px 25px;
+  background-color: #fffaf0;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+}
+
+/* Text polish */
+main p {
+  margin-bottom: 1.2em;
+  line-height: 1.8;
+}
+
+/* Headings */
+h1, h2 {
+  text-align: center;
+  color: #5a3e2b;
+}
+
+/* Project list styling */
+.project-list article {
+  margin-bottom: 25px;
+  padding-bottom: 15px;
+  border-bottom: 1px solid #ddd;
+}
+
+/* Substack icon at bottom center */
+.floating-icon {
+  display: block;
+  margin: 30px auto 0 auto;
+  width: 50px;
+  height: auto;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.3);
   border-radius: 8px;
-  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+/* Footer */
+footer {
+  background-color: #8b5e3c; /* brown footer */
+  color: white;
+  text-align: center;
+  padding: 20px 0;
+  margin-top: 30px;
+  font-style: italic;
 }
