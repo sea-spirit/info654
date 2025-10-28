@@ -42,7 +42,7 @@ nav a:hover {
 .floating-icon {
   display: block;
   margin: 30px auto 0 auto;  /* top margin, centered horizontally */
-  width: 50px;                /* adjust size */
+  width: 150px;                /* adjust size */
   height: auto;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* subtle drop shadow */
   border-radius: 8px;         /* optional, soft corners */
