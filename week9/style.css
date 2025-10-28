@@ -139,15 +139,19 @@ p { font-size: 1rem; } /* element selector */
 
 /* Header styling */
 .header {
-  text-align: center;          /* centers the content */
+  text-align: center;          /* center the content */
   margin-bottom: 30px;         /* space below header */
 }
 
 .banner-image {
-  width: 400px;                /* adjust size to your liking */
-  height: auto;                /* keeps aspect ratio */
+  width: 400px;                /* adjust size if needed */
+  height: auto;                /* keep aspect ratio */
   display: block;
-  margin: 0 auto;              /* centers the image */
+  margin: 0 auto;              /* center image */
+}
+
+nav {
+  margin-top: 10px;
 }
 
 nav a {
