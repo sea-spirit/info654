@@ -125,7 +125,7 @@ p { font-size: 1rem; } /* element selector */
 }
 
 .header-signature {
-  width: 180px;              /* adjust to fit nicely in the bar */
+  width: 222px;              /* adjust to fit nicely in the bar */
   height: auto;
   opacity: 0.95;
   filter: drop-shadow(0 2px 4px rgba(0,0,0,0.2));
