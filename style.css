@@ -97,3 +97,10 @@ h1, h2, h3 {
 p { font-size: 1rem; } /* element selector */
 #footer { font-size: 0.9rem; } /* ID selector */
 .description { font-style: italic; } /* class selector */
+
+.floating-icon {
+  display: block;
+  margin: 30px auto 0 auto; /* top margin 30px, horizontal auto centers it */
+  width: 50px;               /* adjust size as needed */
+  height: auto;
+}
