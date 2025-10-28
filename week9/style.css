@@ -136,3 +136,27 @@ p { font-size: 1rem; } /* element selector */
   transform: scale(1.05);
   opacity: 1;
 }
+
+/* Header styling */
+.header {
+  text-align: center;          /* centers the content */
+  margin-bottom: 30px;         /* space below header */
+}
+
+.banner-image {
+  width: 400px;                /* adjust size to your liking */
+  height: auto;                /* keeps aspect ratio */
+  display: block;
+  margin: 0 auto;              /* centers the image */
+}
+
+nav a {
+  margin: 0 15px;              /* space between links */
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+}
+
+nav a:hover {
+  color: #555;                 /* hover effect */
+}
