@@ -71,7 +71,7 @@ h1, h2 {
 .floating-icon {
   display: block;
   margin: 30px auto 0 auto;
-  width: 50px;
+  width: 150px;
   height: auto;
   box-shadow: 0 4px 8px rgba(0,0,0,0.3);
   border-radius: 8px;
