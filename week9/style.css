@@ -5,7 +5,7 @@
 }
 
 .banner-image {
-  width: 400px;
+  width: 400px; /* adjust to desired size */
   height: auto;
   display: block;
   margin: 0 auto;
@@ -26,15 +26,20 @@ nav a:hover {
   color: #555;
 }
 
-/* Main content */
+/* Floating icon for Substack (only on Home page) */
+.floating-icon {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  width: 50px; /* adjust size */
+  height: auto;
+}
+
+/* Main content styling (kept from original design) */
 main {
   max-width: 800px;
   margin: 0 auto;
   padding: 0 15px;
-}
-
-.project-list article {
-  margin-bottom: 20px;
 }
 
 h1, h2 {
